@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: radial-gradient(circle, rgba(228,230,217,1) 35%, rgba(192,207,178,1) 100%);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: #253528;
+    box-shadow: 2px 7px 19px -3px rgba(37,53,40,1);
+    padding: 10px 5%;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 12px;
+    color: #e4e6d9;
+}
+
+.menu ul{
+    display: flex;
+    gap: 100px;
+}
+
+.menu ul li a{
+    color: #e4e6d9;
+}
+
+.icone span{
+    color: #e4e6d9;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.container-tabela {
+    padding: 75px;
+  }
+
+  .container-tabela .tabela {
+    margin: 24px auto;
+    max-width: 1080px;
+  }
+
+  .container-tabela table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #253528;
+  }
+
+  .container-tabela thead th:nth-child(1) {
+    width: 12%;
+  }
+  
+  .container-tabela thead th:nth-child(2) {
+    width: 15%;
+  }
+  
+  .container-tabela thead th:nth-child(3) {
+    width: 55%;
+  }
+  
+  .container-tabela thead th:nth-child(4) {
+    width: 10%;
+  }
+
+  .exercise-container tbody td:nth-child(1) {
+    text-align: center;
+  }
+  
+  .container-tabela tbody td:nth-child(4),
+  .container-tabela tfoot td:nth-child(4) {
+    text-align: center;
+  }
+  
+  .container-tabela td img {
+    width: 100%;
+  }
+  
+  .container-tabela th,
+  .container-tabela td {
+    padding: 16px;
+    border: 1px solid #253528;
+  }
+  
+  .container-tabela tbody tr {
+    background-color: #e4e6d9;
+    color: #253528;
+  }
+  
+  .container-table table {
+    background-color: #253528;
+    color: #e4e6d9;
+  }
+  

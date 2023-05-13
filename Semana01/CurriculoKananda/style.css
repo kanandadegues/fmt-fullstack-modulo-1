@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1c7bd;
+    box-shadow: 9px 10px 10px -2px rgba(201,191,181,0.5);
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a {
+    color: #f5f3f0;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: #3a2d28;
+}
+
+body{
+    background-color: #f1ede6;
+}
+
+main{
+    width: 1000px;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    color: #3a2d28;
+}
+
+#foto-perfil{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 100px;
+    box-shadow: 9px 10px 10px -2px rgba(201,191,181,0.5);
+    position: absolute;
+    top: 70px;
+}
+
+#nome{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+hr{
+    width: 100%;
+    margin-top: 115px;
+}
+
+#redes-sociais{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 890px;
+    text-decoration: none;
+}
+
+#resumo{
+    width: 100%;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#educacao{
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#experiencia{
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#competencias{
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#habilidades{
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #d1c7bd;
+    text-decoration: none;
+}
+
+.topo a{
+    color: #f5f3f0;
+    padding: 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+.topo a:hover{
+    color: #3a2d28;
+}
