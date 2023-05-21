@@ -1,0 +1,21 @@
+<form>
+    <div>
+        <label for="nome">Nome</label>
+        <input [(ngModel)]="usuario.nome" #nome="ngModel" type="text" name="nome" id="nome" />
+    </div>
+    <div>
+        <label for="cpf">CPF</label>
+        <input [(ngModel)]="usuario.CPF" #cpf="ngModel" type="text" name="cpf" id="cpf">
+    </div>
+    <div>
+        <label for="diaAniversario">Dia de Nascimento</label>
+        <input [(ngModel)]="usuario.diaAniversario" #diaAniversario="ngModel" type="text" name="diaAniversario" id="diaAniversario">
+    </div>
+    <div>
+        <label for="senha">Senha</label>
+        <input [(ngModel)]="usuario.senha" #senha="ngModel" type="password" name="senha" id="senha">
+    </div>
+    <div>
+        <button class="cadastro" (click)="cadastrar()">Cadastrar</button>
+    </div>
+</form>

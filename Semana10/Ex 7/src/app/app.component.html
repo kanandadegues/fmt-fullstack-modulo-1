@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-8 mx-auto my-5">
+            <h2>Tarefas</h2>
+            <div class="input-group mb-3 mt-2">
+                <input type="text" class="form-control" placeholder="Insira sua tarefa" [(ngModel)]="entradaTarefas">
+                <button class="btn btn-outline-secondary" type="button" id="buttonAdd" (click)="adicionarTarefa()">Adicionar</button>
+            </div>
+
+            <div *ngIf="tarefas.length; else vazio">
+                <ul class="list-group">
+                    <li class="list-group-item" *ngFor="let tarefa of tarefas">{{ tarefas }}</li>
+                </ul>
+            </div>
+            <ng-template #vazio>
+                <p>Sem tarefas adicionadas, adicione a sua primeira tarefa!</p>
+            </ng-template>
+        </div>
+    </div>
+</div>
