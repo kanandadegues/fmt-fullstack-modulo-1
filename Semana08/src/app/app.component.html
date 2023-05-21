@@ -1,0 +1,37 @@
+  
+<navbar></navbar>
+  
+<div class="container">
+  <div class="row d-flex mx-auto my-3 align-items-center">
+    <div class="col-6 pt-5">
+      <img src="../assets/Education-amico.png" class="img-fluid">
+    </div>
+    <div class="col-6 bg-success bg-opacity-25 rounded-3 p-4">
+      <formulario></formulario>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+    <div class="card mx-auto my-4 bg-success bg-opacity-25" style="width: 19rem;">
+        <item-card [nome]="personagem.nome" [imagem]="personagem.imagem" [nomeAtor]="personagem.nomeAtor" [descricao]="personagem.descricao"></item-card>
+    </div>
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="col-6 mx-auto my-4 bg-success bg-opacity-25 rounded-3 p-4">
+      <formulario-dois></formulario-dois>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="row">
+        <input-busca (buscar)="textoInserido($event)"></input-busca>
+  </div>
+</div>

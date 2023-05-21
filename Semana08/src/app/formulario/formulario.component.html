@@ -1,0 +1,58 @@
+<h4 class="text-success border-bottom border-success pb-2">Registro de Matérias</h4>
+        <form class="row">
+          <div class="col-12 mb-3 text-success">
+            <label class="form-label"><strong>Nome</strong></label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-12 mb-3 text-success">
+            <label class="form-label"><strong>Escola</strong></label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-12 mb-3 text-success">
+            <label class="form-label"><strong>Professor</strong></label>
+            <select class="form-select text-success">
+              <option selected disable value="">Selecione um professor</option>
+              <option value="1">Otávio</option>
+              <option value="2">Carla</option>
+              <option value="3">Leandro</option>
+              <option value="4">Claudia</option>
+            </select>
+          </div>
+            <div class="col-6 mb-3 text-success">
+              <label class="form-label"><strong>Carga Horária/Aula</strong></label>
+              <input type="number" class="form-control text-success">
+            </div>
+            <div class="col-12 mb-3 text-success">
+              <label class="form-label"><strong>A matéria é opcional?</strong></label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault">
+                <label class="form-check-label" for="flexRadioDefault1">Sim</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault">
+                <label class="form-check-label" for="flexRadioDefault2">Não</label>
+              </div>
+          </div>
+          <div col-12 mt-2>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de matérias</h1>
+                  </div>
+                  <div class="modal-body">
+                    Formulário enviado com sucesso!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </form>
