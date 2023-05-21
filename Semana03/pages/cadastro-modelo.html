@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/cadastros.css">
+    <title>Cadastro Modelo</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+                <li>
+                    <a href="../pages/cadastro-marca.html">Marca</a>
+                </li>
+                <li>
+                    <a href="../pages/cadastro-modelo.html">Modelo</a>
+                </li>
+                <li>
+                    <a href="../pages/cadastro-veiculos.html">Veículos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+         <h2>Cadastro do Modelo</h2>
+         <form class="formulario" onsubmit="cadastrarModelo()">
+            <div class="modelo">
+                <label for="modelo">Modelo</label>
+                <input type="text" name="modelo" id="modelo">
+            </div>
+            <div class="marca">
+                <label for="marca">Marca</label>
+                <select name="marca" id="marca">
+                </select>
+            </div>
+            <button type="submit">Cadastrar Modelo</button>
+         </form>
+        </div>
+     </main>
+
+    <script src="../scripts/modelo.js"></script>
+</body>
+</html>
