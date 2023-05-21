@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 my-auto mx-auto text-center">
+            <p class="pt-5">{{ text }}</p>
+            
+            <div class=" col-12 d-inline">
+                <img src="{{ imagemURL }}" id="img" class="img-fluid m-2" alt="cat"/>
+            </div>
+            
+            <div class="mt-2">
+                <button type="button" (click)="imagem()" class="btn btn-dark m-2">Imagem</button>
+                <button type="button" (click)="gif()" class="btn btn-dark m-2">GIF</button>
+            </div> 
+        </div>
+    </div>
+</div>
